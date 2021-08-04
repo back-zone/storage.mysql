@@ -3,10 +3,23 @@
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
         <Nullable>enable</Nullable>
+        <AssemblyName>Back.Zone.Storage.MySQL</AssemblyName>
+        <RootNamespace>Back.Zone.Storage.MySQL</RootNamespace>
+        <PackageVersion>0.0.1</PackageVersion>
+        <PackageProjectUrl>https://back.zone</PackageProjectUrl>
+        <PackageLicenseUrl>https://back.zone/oss/license.html</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/back-zone/storage.mysql</RepositoryUrl>
+        <PackageTags>backzone mysql, back.zone.mysql, back.zone.storage.mysql</PackageTags>
+        <PackageId>Back.Zone.Storage.MySQL</PackageId>
+        <Authors>Murat Yavuzkaplan</Authors>
+        <Company>Back.Zone</Company>
+        <Title>Backzone MySql</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <AssemblyVersion>0.0.1</AssemblyVersion>
     </PropertyGroup>
-
+    
     <ItemGroup>
-      <PackageReference Include="Back.Zone.Monads" Version="0.0.1" />
+      <PackageReference Include="Back.Zone.Monads" Version="0.0.3" />
       <PackageReference Include="MySql.Data" Version="8.0.26" />
     </ItemGroup>
 
